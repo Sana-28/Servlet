@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="#00ff33">
+	<form action="registration" method="post">
+		<table>
+			<tr>
+				<td>ID</td>
+				<input type="text" name="id" placeholder="id">
+			</tr>
+
+			<tr>
+				<td>Name</td>
+				<input type="text" name="name" placeholder="name">
+			</tr>
+		</table>
+		<input type="email" name="email" placeholder="Email"><br>
+		<input type="password" name="password" placeholder="Password"><br>
+		<input type="number" name="mobile_number" placeholder="Mobile Number"><br>
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>

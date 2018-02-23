@@ -1,0 +1,5 @@
+package com.bridgelabz.servletJdbc;
+
+public class RegistrationDelete {
+
+}

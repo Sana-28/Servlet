@@ -1,0 +1,30 @@
+package com.bridgelabz.servletListener;
+
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+
+import com.mysql.jdbc.Connection;
+
+public class ContextListener implements ServletContextListener {
+
+	Connection connection=null;
+	@Override
+	public void contextDestroyed(ServletContextEvent arg0) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			System.out.println("Driver Loaded and Registered..");
+
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bidgelabz_db", "root", "root");
+			System.out.println("Connection established with database..");
+
+			preparedStatement = connection.prepareStatement("insert into student values(?,?,?)");
+			System.out.println("Platform Created..");
+	}
+
+	@Override
+	public void contextInitialized(ServletContextEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

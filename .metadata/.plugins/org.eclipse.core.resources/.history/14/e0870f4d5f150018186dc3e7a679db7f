@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login form</title>
+</head>
+<body>
+	<form action="abc">
+		<input type="text" name="user_name"/><br>
+		<input type="password" name="password"><br>
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>

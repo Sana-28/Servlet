@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+</head>
+<body>
+	<form action="registration" method="post">
+		<table>
+			<tr>
+				<td>ID</td>
+				<input type="text" name="id" placeholder="id">
+			</tr>
+
+			<tr>
+				<td>Name</td>
+				<input type="text" name="name" placeholder="name">
+			</tr>
+
+			<tr>
+				<td>Email</td>
+				<input type="email" name="email" placeholder="Email">
+			</tr>
+
+			<tr>
+				<td>Password</td>
+				<input type="password" name="password" placeholder="Password">
+			</tr>
+
+			<tr>
+				<td>Mobile Number</td>
+				<input type="number" name="mobileNumber" placeholder="Mobile Number">
+			</tr>
+
+			<tr>
+				<td></td>
+				<input type="submit" value="registration">
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>

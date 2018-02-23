@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+</head>
+<body>
+	<form action="registration" method="get">
+		<table>
+			<tr>
+				<td></td>ID
+				<input type="text" name="id" placeholder="id">
+				<br>
+
+			</tr>
+
+			<tr>
+				<td></td>Name
+				<input type="text" name="name" placeholder="name">
+				<br>
+			</tr>
+
+			<tr>
+				<td></td>Email
+				<input type="email" name="email" placeholder="Email">
+				<br>
+			</tr>
+
+			<tr>
+				<td></td>Password
+				<input type="password" name="password" placeholder="Password">
+				<br>
+
+			</tr>
+
+			<tr>
+				<td></td>Mobile Number
+				<input type="text" name="mobileNumber" placeholder="Mobile Number">
+				<br>
+			</tr>
+
+			<tr>
+				<td></td>
+				<input type="submit" value="registration">
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>

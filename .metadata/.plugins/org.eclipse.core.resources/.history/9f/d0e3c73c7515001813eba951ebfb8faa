@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="#00ff33">
+	<form action="registration" method="post">
+		<table>
+			<tr>
+				<td>ID</td>
+				<input type="text" name="id" placeholder="id">
+			</tr>
+
+			<tr>
+				<td>Name</td>
+				<input type="text" name="name" placeholder="name">
+			</tr>
+
+			<tr>
+				<td>Email</td>
+				<input type="email" name="email" placeholder="Email">
+				<br>
+			</tr>
+
+			<tr>
+				<td>Password</td>
+				<input type="password" name="password" placeholder="Password">
+				<br>
+			</tr>
+
+			<tr>
+				<td>Mobile Number</td>
+				<input type="number" name="mobile_number" placeholder="Mobile Number">
+				
+			</tr>
+		</table>
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>

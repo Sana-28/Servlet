@@ -1,0 +1,29 @@
+package com.bridgelabz.servletFilter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.*;  
+public class MyFilter implements Filter{
+
+	@Override
+	public void init(FilterConfig req) throws ServletException {
+		
+	}
+	
+	@Override
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException {
+		 
+			PrintWriter out=response.getWriter();  
+			out.print("filter is invoked before");  
+			chain.doFilter(request, response);
+			out.print("filter is invoked after");
+	}
+
+	@Override
+	public void destroy() {
+
+	}
+
+
+}

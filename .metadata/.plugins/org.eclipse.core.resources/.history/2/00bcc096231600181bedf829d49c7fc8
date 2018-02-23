@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login form</title>
+</head>
+<body>
+	<form action="FirstServlet" method="post">
+		<input type="text" name="user_name" placeholder="User Name"><br>
+		<input type="password" name="password" placeholder="Password"><br>
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>

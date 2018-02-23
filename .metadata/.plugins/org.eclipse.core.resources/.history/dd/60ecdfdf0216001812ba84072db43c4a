@@ -1,0 +1,9 @@
+package com.bridgeit.httpServlet;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+
+public class LoginClass extends HttpServlet {
+
+}
+

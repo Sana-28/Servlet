@@ -1,0 +1,25 @@
+package com.bridgeit.httpServlet;
+
+
+
+public class Login extends HttpServlet{
+
+	
+
+/*	protected void doget(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		String id = request.getParameter("id");
+		String name = request.getParameter("name");
+		String email = request.getParameter("email");
+		String password = request.getParameter("password");
+		String mobileNumber = request.getParameter("mobileNumber");
+
+		response.setContentType("text/html");
+	 setting the web content 
+		PrintWriter out = response.getWriter();
+		out.println("<html><body> " + "<h3>User Details</h3>" + name + email + "</body></html>");
+		out.flush();
+		out.close();
+
+	}*/
+
+}

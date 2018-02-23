@@ -1,0 +1,22 @@
+package com.bridgelabz.servletListener;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletRequestAttributeEvent;
+import javax.servlet.ServletRequestEvent;
+import javax.servlet.ServletRequestListener;
+
+public class RequestListener implements ServletRequestListener {
+
+	@Override
+	public void requestDestroyed(ServletRequestEvent servletRequestEvent) {
+
+		ServletRequest request = servletRequestEvent.ServletRequest();
+	}
+
+	@Override
+	public void requestInitialized(ServletRequestEvent sre) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
