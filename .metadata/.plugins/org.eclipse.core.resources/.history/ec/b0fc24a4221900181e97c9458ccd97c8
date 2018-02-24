@@ -1,0 +1,19 @@
+package dto;
+
+import java.io.Serializable;
+
+public class PersonDTO implements Serializable {
+	{
+		@Id
+		private int id;
+		private String name;
+		private String email;
+	
+		public PersonDTO()
+		{
+			System.out.println("DTO object created..");
+		}
+		
+	}
+
+}

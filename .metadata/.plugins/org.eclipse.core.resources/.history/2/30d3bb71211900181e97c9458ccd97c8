@@ -1,0 +1,13 @@
+package dto;
+
+public class PersonDao  {
+
+	public PersonDao()
+	{
+		System.out.println("Person Dao Created..");
+	}
+	public void SavePerson(Person dto)
+	{
+		System.out.println("Saving perosn");
+	}
+}

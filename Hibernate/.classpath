@@ -22,5 +22,8 @@
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernatejar/antlr-2.7.6.jar"/>
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/mysql-connector.jar"/>
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernate-annotations-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernate-commons-annotations-4.0.4.final.jar"/>
+	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/ejb3-persistence-3.3.2.Beta1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

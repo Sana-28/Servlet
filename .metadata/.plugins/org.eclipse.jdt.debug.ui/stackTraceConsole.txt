@@ -1,0 +1,2 @@
+ ServletContext ctx = getServletContext();          
+        System.out.println(ctx.getAttribute("ContextParam"));
