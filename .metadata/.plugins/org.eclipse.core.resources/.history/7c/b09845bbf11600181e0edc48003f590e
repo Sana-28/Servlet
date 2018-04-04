@@ -1,8 +1,0 @@
-package com.bridgelabz.servletChaining;
-
-import javax.servlet.http.HttpServlet;
-
-public class IncludeMethod extends HttpServlet {
-
-	
-}

@@ -1,9 +1,0 @@
-package com.bridgelabz.servletJdbc;
-
-import javax.servlet.http.HttpServlet;
-
-public class Register extends HttpServlet{
-	
-	
-
-}
