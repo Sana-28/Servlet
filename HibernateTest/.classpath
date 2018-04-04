@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernatejar/xerces-2.6.2.jar"/>
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernatejar/log4j-1.2.11.jar"/>
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernatejar/jta.jar"/>
@@ -20,10 +19,5 @@
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernatejar/asm-attrs.jar"/>
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernatejar/asm.jar"/>
 	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernatejar/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/mysql-connector.jar"/>
-	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/ojdbc14.jar"/>
-	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernate-annotations-3.3.0.jar"/>
-	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/hibernate-commons-annotations-4.0.4.final.jar"/>
-	<classpathentry kind="lib" path="/home/bridgelabz/Downloads/ejb3-persistence-3.3.2.Beta1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
